@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Z Beauty</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="trends.html">Trends</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="join.html">Join Us</a></li>
+        </ul>
+        <input
+          type="text"
+          id="searchBar"
+          class="search-bar"
+          placeholder="Search..."
+        />
+      </nav>
+    </header>
+
+    <section id="hero">
+      <div class="hero-content">
+        <h1 id="welcome">Welcome to E-Z Beauty</h1>
+        <p id="intro">Discover the latest in beauty trends and products</p>
+        <button
+          class="hero-button"
+          onclick="window.location.href='products.html'"
+        >
+          Shop Now
+        </button>
+      </div>
+    </section>
+
+    <section id="products" class="products-section">
+      <h2>Featured Products</h2>
+      <div class="products-grid">
+        <div class="product-card" data-search="Product 1 $29.99">
+          <img src="product1.jpg" alt="Product 1" />
+          <h3>Product 1</h3>
+          <p>$29.99</p>
+        </div>
+        <div class="product-card" data-search="Product 2 $39.99">
+          <img src="product2.jpg" alt="Product 2" />
+          <h3>Product 2</h3>
+          <p>$39.99</p>
+        </div>
+        <div class="product-card" data-search="Product 3 $49.99">
+          <img src="product3.jpg" alt="Product 3" />
+          <h3>Product 3</h3>
+          <p>$49.99</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="trends" class="trends-section">
+      <h2>Beauty Trends</h2>
+      <div class="bubbles-container">
+        <div class="bubble" data-type="makeup-trends">Makeup Trends</div>
+        <div class="bubble" data-type="skincare-trends">Skincare Trends</div>
+        <div class="bubble" data-type="lip-shade-quiz">Lip Shade Quiz</div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonials-grid">
+        <div
+          class="testimonial-card"
+          data-search="E-Z Beauty has transformed my skincare routine! Sarah M."
+        >
+          <p>"E-Z Beauty has transformed my skincare routine!"</p>
+          <h4>- Sarah M.</h4>
+        </div>
+        <div
+          class="testimonial-card"
+          data-search="I love the variety of products available. Jane D."
+        >
+          <p>"I love the variety of products available."</p>
+          <h4>- Jane D.</h4>
+        </div>
+        <div
+          class="testimonial-card"
+          data-search="The beauty trends section is so inspiring! Alice K."
+        >
+          <p>"The beauty trends section is so inspiring!"</p>
+          <h4>- Alice K.</h4>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>
+          &copy; 2024 E-Z Beauty. All rights reserved. Created by Azaria
+          Johnson.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

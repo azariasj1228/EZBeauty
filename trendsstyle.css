@@ -1,0 +1,132 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf2f8; /* Light pink background */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #d0006f; /* Soft red/pink */
+  text-align: center;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #d0006f; /* Soft red/pink */
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff; /* White text color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #f4b6d0; /* Light pink on hover */
+}
+
+/* Search bar styles */
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #d0006f; /* Soft red/pink */
+  border-radius: 20px;
+  background-color: #fff; /* White background */
+  color: #333; /* Dark gray text color */
+}
+
+.search-bar::placeholder {
+  color: #999; /* Light gray placeholder text */
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #f4b6d0; /* Light pink when focused */
+}
+
+/* Trends section styles */
+#trends {
+  padding: 40px 0;
+}
+
+.trend-section {
+  padding: 20px 0;
+}
+
+.trend-section article {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Bubbles container styles */
+.bubbles-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.bubble {
+  display: inline-block;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #f8d0e1; /* Light pink */
+  color: #d0006f;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 2px solid #d0006f;
+  width: 150px;
+  height: 150px;
+  line-height: 110px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bubble:hover {
+  background-color: #f4b6d0; /* Slightly darker pink */
+}
+
+/* Creators container styles */
+.creators-container {
+  display: none;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+  background-color: #d0006f; /* Soft red/pink */
+  padding: 20px 0;
+  text-align: center;
+  color: #fff; /* White text color */
+}

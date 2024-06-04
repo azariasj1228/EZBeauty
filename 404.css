@@ -1,0 +1,38 @@
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+  color: #d0006f; /* Soft red/pink */
+}
+
+p {
+  font-size: 1.5em;
+  color: #333;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d0006f;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #a0005a; /* Darker red/pink */
+}

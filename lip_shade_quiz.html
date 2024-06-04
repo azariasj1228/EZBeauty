@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lip Shade Quiz</title>
+    <link rel="stylesheet" href="lipgamestyles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Lip Shade Quiz</h1>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div id="quiz-container">
+          <h2 id="question">Question</h2>
+          <div id="options"></div>
+        </div>
+        <div id="result-container" style="display: none">
+          <h2 id="result-title">Your Perfect Lip Shade:</h2>
+          <p id="lip-shade"></p>
+          <button onclick="restartQuiz()">Restart Quiz</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>
+          &copy; 2024 E-Z Beauty. All rights reserved. Created by Azaria
+          Johnson.
+        </p>
+      </div>
+    </footer>
+
+    <script src="lipshadequiz.js" defer></script>
+  </body>
+</html>
